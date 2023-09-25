@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.grid-container{
+	display:grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	
+	
+}
+.grid-item{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:10px;
+	height:150px;
+	width:200px;
+	background-color:lightgray;
+	border-radius:5px;
+	font-size:40px;
+}
+
